@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Violation Form</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button default-href="#" routerLink="/dashboard"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+  </ion-header>
+
+  <ion-content color="light">
+    <ion-list [inset]="true">
+      <ion-list-header>
+        <ion-label>Video Games</ion-label>
+        <ion-button></ion-button>
+      </ion-list-header>
+      <ion-item>
+        <ion-input label="Firstname" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Lastname" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Address" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="License Number" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Plate Number" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Type of Vehicle" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Date of Violation" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Place of Violation" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-select label="Type of Violation" label-placement="stacked">
+          <ion-select-option value="Illegal Parking">Illegal Parking</ion-select-option>
+          <ion-select-option value="No Driver's Licence">No Driver's Licence</ion-select-option>
+          <ion-select-option value="Expired Driver's License">Expired Driver's License</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Amount" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+        <ion-button expand="block">Save</ion-button>
+    </ion-list>
+  </ion-content>
+
+  
+      
+   
