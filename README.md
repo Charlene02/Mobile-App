@@ -1,1 +1,1 @@
-# mabile-app
+# mobile-app
